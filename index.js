@@ -21,7 +21,7 @@ const merge = (arr1, arr2) => {
       sorted.push(findMinAndRemoveSorted(arr2));
     }
   }
-  
+  //returns new array with the empty original arrays
   return sorted.concat(arr1).concat(arr2);
 };
 
