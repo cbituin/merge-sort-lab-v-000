@@ -22,7 +22,7 @@ const merge = (arr1, arr2) => {
     }
   }
   
-  return sorted;
+  return sorted.concat(arr1).concat(arr2);
 };
 
 const mergeSort = (arr) => {
